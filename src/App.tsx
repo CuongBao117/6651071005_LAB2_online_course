@@ -2,6 +2,7 @@ import { Link, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import ListPage from './pages/ListPage'
 import DetailPage from './pages/DetailPage'
+import ComparePage from './pages/ComparePage'
 import { useLanguage } from './i18n/useLanguage'
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<ListPage />} />
           <Route path="/item/:id" element={<DetailPage />} />
+          <Route path="/compare" element={<ComparePage />} />
           <Route
             path="*"
             element={

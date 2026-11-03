@@ -4,6 +4,7 @@ const vi = {
   siteName: 'MiniLMS',
   courses: 'Khóa học',
   language: 'Ngôn ngữ',
+  loading: 'Đang tải...',
   hours: 'giờ',
   lessons: 'bài',
   instructor: 'Giảng viên',
@@ -18,6 +19,16 @@ const vi = {
   courseNotFound: 'Không tìm thấy khóa học.',
   pageNotFound: 'Không tìm thấy trang.',
   goHome: 'Về trang chủ',
+  compare: 'So sánh',
+  compareTitle: 'So sánh khóa học',
+  compareHint: 'Chọn tối đa 3 khóa học để so sánh.',
+  compareEmpty: 'Chưa có khóa học nào được chọn để so sánh.',
+  criteria: 'Tiêu chí',
+  category: 'Danh mục',
+  remove: 'Bỏ chọn',
+  clearAll: 'Bỏ chọn tất cả',
+  cheapest: 'Rẻ nhất',
+  topRated: 'Đánh giá cao nhất',
 }
 
 export type TranslationKey = keyof typeof vi
@@ -26,6 +37,7 @@ const en: Record<TranslationKey, string> = {
   siteName: 'MiniLMS',
   courses: 'Courses',
   language: 'Language',
+  loading: 'Loading...',
   hours: 'hours',
   lessons: 'lessons',
   instructor: 'Instructor',
@@ -40,6 +52,16 @@ const en: Record<TranslationKey, string> = {
   courseNotFound: 'Course not found.',
   pageNotFound: 'Page not found.',
   goHome: 'Go to home page',
+  compare: 'Compare',
+  compareTitle: 'Compare courses',
+  compareHint: 'Select up to 3 courses to compare.',
+  compareEmpty: 'No courses selected for comparison yet.',
+  criteria: 'Criteria',
+  category: 'Category',
+  remove: 'Remove',
+  clearAll: 'Clear all',
+  cheapest: 'Cheapest',
+  topRated: 'Top rated',
 }
 
 export const translations: Record<Lang, Record<TranslationKey, string>> = { vi, en }

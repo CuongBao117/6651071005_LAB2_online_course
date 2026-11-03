@@ -1,20 +1,29 @@
 import { Link, useParams } from 'react-router-dom'
-import { courses } from '../data/courses'
+import DetailSkeleton from '../components/DetailSkeleton'
+import { useCourses } from '../hooks/useCourses'
+import { useSimulatedLoading } from '../hooks/useSimulatedLoading'
 import { formatCurrency } from '../utils'
 import { useLanguage } from '../i18n/useLanguage'
-import type { TranslationKey } from '../i18n/translations'
-import type { Level } from '../types'
-
-const LEVEL_KEYS: Record<Level, TranslationKey> = {
-  beginner: 'levelBeginner',
-  intermediate: 'levelIntermediate',
-  advanced: 'levelAdvanced',
-}
+import { LEVEL_KEYS } from '../i18n/levelKeys'
 
 export default function DetailPage() {
   const { id } = useParams()
   const { lang, t } = useLanguage()
+  const { courses, loading: listLoading } = useCourses()
+  const simulating = useSimulatedLoading(id, 600)
+  const loading = listLoading || simulating
   const course = courses.find((c) => String(c.id) === id)
+
+  if (loading) {
+    return (
+      <div aria-busy="true">
+        <p role="status" className="sr-only">
+          {t('loading')}
+        </p>
+        <DetailSkeleton />
+      </div>
+    )
+  }
 
   if (!course) {
     return (
