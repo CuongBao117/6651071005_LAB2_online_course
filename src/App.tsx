@@ -2,8 +2,10 @@ import { Link, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import ListPage from './pages/ListPage'
 import DetailPage from './pages/DetailPage'
+import { useLanguage } from './i18n/useLanguage'
 
 export default function App() {
+  const { t } = useLanguage()
   return (
     <div className="min-h-screen bg-slate-50">
       <Header />
@@ -15,9 +17,9 @@ export default function App() {
             path="*"
             element={
               <p>
-                Không tìm thấy trang.{' '}
+                {t('pageNotFound')}{' '}
                 <Link className="text-emerald-700 underline" to="/">
-                  Về trang chủ
+                  {t('goHome')}
                 </Link>
               </p>
             }
