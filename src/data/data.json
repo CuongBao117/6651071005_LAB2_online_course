@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "vi": "HTML và CSS căn bản",
+      "en": "HTML and CSS Basics"
+    },
+    "category": {
+      "vi": "Lập trình web",
+      "en": "Web development"
+    },
+    "instructor": "Nguyễn Minh Anh",
+    "price": 199000,
+    "level": "beginner",
+    "hours": 8,
+    "lessons": 32,
+    "rating": 4.6,
+    "description": {
+      "vi": "Dựng trang web đầu tiên với HTML5 và CSS3.",
+      "en": "Build your first web page with HTML5 and CSS3."
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "vi": "JavaScript từ con số 0",
+      "en": "JavaScript from Scratch"
+    },
+    "category": {
+      "vi": "Lập trình web",
+      "en": "Web development"
+    },
+    "instructor": "Trần Quốc Huy",
+    "price": 299000,
+    "level": "beginner",
+    "hours": 14,
+    "lessons": 56,
+    "rating": 4.7,
+    "description": {
+      "vi": "Học biến, hàm, DOM và xử lý sự kiện.",
+      "en": "Learn variables, functions, the DOM and events."
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "vi": "TypeScript thực chiến",
+      "en": "Practical TypeScript"
+    },
+    "category": {
+      "vi": "Lập trình web",
+      "en": "Web development"
+    },
+    "instructor": "Lê Thảo Vy",
+    "price": 349000,
+    "level": "intermediate",
+    "hours": 10,
+    "lessons": 40,
+    "rating": 4.8,
+    "description": {
+      "vi": "Kiểu dữ liệu, generic và cấu hình strict.",
+      "en": "Types, generics and strict-mode configuration."
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "vi": "React 18 cho người mới",
+      "en": "React 18 for Beginners"
+    },
+    "category": {
+      "vi": "Lập trình web",
+      "en": "Web development"
+    },
+    "instructor": "Phạm Đức Long",
+    "price": 449000,
+    "level": "intermediate",
+    "hours": 16,
+    "lessons": 64,
+    "rating": 4.8,
+    "description": {
+      "vi": "Component, Hooks và React Router từng bước.",
+      "en": "Components, Hooks and React Router step by step."
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "vi": "Tailwind CSS tăng tốc",
+      "en": "Tailwind CSS Fast Track"
+    },
+    "category": {
+      "vi": "Lập trình web",
+      "en": "Web development"
+    },
+    "instructor": "Võ Thanh Hà",
+    "price": 249000,
+    "level": "beginner",
+    "hours": 6,
+    "lessons": 24,
+    "rating": 4.5,
+    "description": {
+      "vi": "Thiết kế giao diện responsive bằng utility class.",
+      "en": "Build responsive layouts with utility classes."
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "vi": "Node.js và Express",
+      "en": "Node.js and Express"
+    },
+    "category": {
+      "vi": "Lập trình web",
+      "en": "Web development"
+    },
+    "instructor": "Đặng Văn Khoa",
+    "price": 499000,
+    "level": "intermediate",
+    "hours": 18,
+    "lessons": 70,
+    "rating": 4.6,
+    "description": {
+      "vi": "Xây dựng REST API hoàn chỉnh.",
+      "en": "Build a complete REST API."
+    }
+  },
+  {
+    "id": 7,
+    "title": {
+      "vi": "Python cơ bản",
+      "en": "Python Basics"
+    },
+    "category": {
+      "vi": "Lập trình",
+      "en": "Programming"
+    },
+    "instructor": "Hoàng Gia Bảo",
+    "price": 199000,
+    "level": "beginner",
+    "hours": 12,
+    "lessons": 48,
+    "rating": 4.7,
+    "description": {
+      "vi": "Cú pháp Python và bài tập thực hành.",
+      "en": "Python syntax with hands-on exercises."
+    }
+  },
+  {
+    "id": 8,
+    "title": {
+      "vi": "Cấu trúc dữ liệu và giải thuật",
+      "en": "Data Structures and Algorithms"
+    },
+    "category": {
+      "vi": "Lập trình",
+      "en": "Programming"
+    },
+    "instructor": "Bùi Anh Tuấn",
+    "price": 599000,
+    "level": "advanced",
+    "hours": 24,
+    "lessons": 90,
+    "rating": 4.9,
+    "description": {
+      "vi": "Mảng, cây, đồ thị và độ phức tạp thuật toán.",
+      "en": "Arrays, trees, graphs and algorithm complexity."
+    }
+  },
+  {
+    "id": 9,
+    "title": {
+      "vi": "SQL và cơ sở dữ liệu",
+      "en": "SQL and Databases"
+    },
+    "category": {
+      "vi": "Dữ liệu",
+      "en": "Data"
+    },
+    "instructor": "Ngô Thùy Dung",
+    "price": 329000,
+    "level": "beginner",
+    "hours": 10,
+    "lessons": 38,
+    "rating": 4.5,
+    "description": {
+      "vi": "Truy vấn, JOIN và thiết kế bảng.",
+      "en": "Queries, JOINs and table design."
+    }
+  },
+  {
+    "id": 10,
+    "title": {
+      "vi": "Phân tích dữ liệu với R",
+      "en": "Data Analysis with R"
+    },
+    "category": {
+      "vi": "Dữ liệu",
+      "en": "Data"
+    },
+    "instructor": "Đỗ Hải Nam",
+    "price": 399000,
+    "level": "intermediate",
+    "hours": 14,
+    "lessons": 52,
+    "rating": 4.6,
+    "description": {
+      "vi": "Làm sạch, trực quan hóa và thống kê mô tả.",
+      "en": "Cleaning, visualizing and describing data."
+    }
+  },
+  {
+    "id": 11,
+    "title": {
+      "vi": "Thống kê ứng dụng",
+      "en": "Applied Statistics"
+    },
+    "category": {
+      "vi": "Dữ liệu",
+      "en": "Data"
+    },
+    "instructor": "Lý Mỹ Linh",
+    "price": 379000,
+    "level": "intermediate",
+    "hours": 12,
+    "lessons": 44,
+    "rating": 4.4,
+    "description": {
+      "vi": "Xác suất, kiểm định và hồi quy qua ví dụ.",
+      "en": "Probability, hypothesis tests and regression."
+    }
+  },
+  {
+    "id": 12,
+    "title": {
+      "vi": "Machine Learning nhập môn",
+      "en": "Intro to Machine Learning"
+    },
+    "category": {
+      "vi": "Dữ liệu",
+      "en": "Data"
+    },
+    "instructor": "Trịnh Quang Vinh",
+    "price": 699000,
+    "level": "advanced",
+    "hours": 20,
+    "lessons": 76,
+    "rating": 4.8,
+    "description": {
+      "vi": "Mô hình học có giám sát đầu tiên của bạn.",
+      "en": "Your first supervised learning models."
+    }
+  },
+  {
+    "id": 13,
+    "title": {
+      "vi": "Thiết kế UI/UX",
+      "en": "UI/UX Design"
+    },
+    "category": {
+      "vi": "Thiết kế",
+      "en": "Design"
+    },
+    "instructor": "Phan Ngọc Lan",
+    "price": 429000,
+    "level": "beginner",
+    "hours": 12,
+    "lessons": 46,
+    "rating": 4.7,
+    "description": {
+      "vi": "Quy trình thiết kế từ nghiên cứu đến prototype.",
+      "en": "From user research to a clickable prototype."
+    }
+  },
+  {
+    "id": 14,
+    "title": {
+      "vi": "Figma thực hành",
+      "en": "Figma in Practice"
+    },
+    "category": {
+      "vi": "Thiết kế",
+      "en": "Design"
+    },
+    "instructor": "Cao Tuấn Kiệt",
+    "price": 259000,
+    "level": "beginner",
+    "hours": 7,
+    "lessons": 28,
+    "rating": 4.5,
+    "description": {
+      "vi": "Frame, component và auto layout.",
+      "en": "Frames, components and auto layout."
+    }
+  },
+  {
+    "id": 15,
+    "title": {
+      "vi": "Git và GitHub",
+      "en": "Git and GitHub"
+    },
+    "category": {
+      "vi": "Công cụ",
+      "en": "Tools"
+    },
+    "instructor": "Vũ Hoàng Sơn",
+    "price": 149000,
+    "level": "beginner",
+    "hours": 5,
+    "lessons": 20,
+    "rating": 4.6,
+    "description": {
+      "vi": "Commit, branch và làm việc nhóm với GitHub.",
+      "en": "Commits, branches and teamwork on GitHub."
+    }
+  },
+  {
+    "id": 16,
+    "title": {
+      "vi": "Linux cho lập trình viên",
+      "en": "Linux for Developers"
+    },
+    "category": {
+      "vi": "Công cụ",
+      "en": "Tools"
+    },
+    "instructor": "Tạ Minh Châu",
+    "price": 279000,
+    "level": "intermediate",
+    "hours": 9,
+    "lessons": 34,
+    "rating": 4.4,
+    "description": {
+      "vi": "Dòng lệnh, quyền và shell script cơ bản.",
+      "en": "The command line, permissions and basic shell scripts."
+    }
+  },
+  {
+    "id": 17,
+    "title": {
+      "vi": "Tiếng Anh giao tiếp công sở",
+      "en": "Business English"
+    },
+    "category": {
+      "vi": "Ngoại ngữ",
+      "en": "Languages"
+    },
+    "instructor": "Hồ Thu Trang",
+    "price": 319000,
+    "level": "beginner",
+    "hours": 15,
+    "lessons": 60,
+    "rating": 4.3,
+    "description": {
+      "vi": "Email, họp và thuyết trình bằng tiếng Anh.",
+      "en": "Emails, meetings and presentations in English."
+    }
+  },
+  {
+    "id": 18,
+    "title": {
+      "vi": "IELTS Writing",
+      "en": "IELTS Writing"
+    },
+    "category": {
+      "vi": "Ngoại ngữ",
+      "en": "Languages"
+    },
+    "instructor": "Mai Khánh Linh",
+    "price": 549000,
+    "level": "advanced",
+    "hours": 16,
+    "lessons": 48,
+    "rating": 4.7,
+    "description": {
+      "vi": "Chiến lược cho Task 1 và Task 2.",
+      "en": "Strategies for Task 1 and Task 2."
+    }
+  },
+  {
+    "id": 19,
+    "title": {
+      "vi": "Marketing số căn bản",
+      "en": "Digital Marketing Basics"
+    },
+    "category": {
+      "vi": "Kinh doanh",
+      "en": "Business"
+    },
+    "instructor": "Đinh Bảo Ngọc",
+    "price": 289000,
+    "level": "beginner",
+    "hours": 9,
+    "lessons": 36,
+    "rating": 4.4,
+    "description": {
+      "vi": "SEO, quảng cáo và đo lường hiệu quả.",
+      "en": "SEO, ads and measuring results."
+    }
+  },
+  {
+    "id": 20,
+    "title": {
+      "vi": "Khởi nghiệp thương mại điện tử",
+      "en": "E-commerce Startup"
+    },
+    "category": {
+      "vi": "Kinh doanh",
+      "en": "Business"
+    },
+    "instructor": "Lương Thế Vinh",
+    "price": 459000,
+    "level": "intermediate",
+    "hours": 13,
+    "lessons": 50,
+    "rating": 4.6,
+    "description": {
+      "vi": "Từ chọn sản phẩm đến vận hành cửa hàng online.",
+      "en": "From choosing products to running an online store."
+    }
+  }
+]
